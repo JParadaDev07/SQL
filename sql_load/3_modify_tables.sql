@@ -23,20 +23,18 @@ NOTE: If you are having issues with permissions. And you get error:
 
 */
 
--- NOTE: This has been updated from the video to fix issues with encoding
-
 COPY company_dim
-FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\company_dim.csv'
+FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\company_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_dim
-FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\skills_dim.csv'
+FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\skills_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY job_postings_fact
-FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\job_postings_fact.csv'
+FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\job_postings_fact.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_job_dim
-FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\skills_job_dim.csv'
+FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
