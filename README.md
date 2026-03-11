@@ -30,6 +30,12 @@ Dataset and base scripts (creación/carga) used on the project are from the same
 
 ```bash
 SQL/
+├── assets/
+│   ├── 1_query.png
+│   ├── 2_query.png
+│   ├── 3_query.png
+│   ├── 4_query.png
+│   └── 5_query.png
 ├── project_sql/
 │   ├── 1_top_paying_jobs.sql
 │   ├── 2_top_paying_jobs_skills.sql
@@ -42,6 +48,7 @@ SQL/
     └── 3_modify_tables.sql
 ```
 
+- `assets/`: Images with query results for visualization (not the full output, just samples).
 - `sql_load/`: Those are the scripts for preparing the database, tables, and initial data loading.
 - `project_sql/`: Analytical queries (my learning progress).
 
