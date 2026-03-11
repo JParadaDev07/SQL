@@ -11,7 +11,7 @@ The main goal is to practice business SQL queries that answer questions like:
 
 ---
 
-## 📚 Contexto del aprendizaje
+## 📚 Learning Context
 
 This project is inspired by the tutorial of YouTuber **Luke Barousse**:
 - Video: https://www.youtube.com/watch?v=7mz73uXD9DA
@@ -99,6 +99,9 @@ File: `project_sql/1_top_paying_jobs.sql`
 ### Business Insight
 Allows to detect high salary opportunities for Data Analyst profiles in remote or Colombia.
 
+![Query 1 Result](assets/1_query.png)
+> Those are the first 10 rows of the result, showing the job title, job location, job schedule, yearly salary, the date the job was posted, and the company name. **Note**: The query is limited, so there are more results in the full output. The same may apply to the next queries, where only a sample of the results is shown in the images for visualization purposes.
+
 ---
 
 ## 2) Required Skills On top-paying jobs
@@ -114,6 +117,8 @@ File: `project_sql/2_top_paying_jobs_skills.sql`
 
 ### Business Insight
 Shows which tools appear in the most premium jobs (e.g., SQL, Python, Tableau, cloud, etc.), useful for prioritizing study.
+
+![Query 2 Result](assets/2_query.png)
 
 ---
 
@@ -131,6 +136,8 @@ File: `project_sql/3_top_demanded_skills.sql`
 ### Business Insight
 Identifies the “core” of skills most demanded by the market.
 
+![Query 3 Result](assets/3_query.png)
+
 ---
 
 ## 4) Top paying skills
@@ -147,6 +154,7 @@ File: `project_sql/4_top_paying_skills.sql`
 ### Business Insight
 Not always the most demanded is the best paid. This query helps to see the "salary premium" part.
 
+![Query 4 Result](assets/4_query.png)
 
 ---
 
@@ -166,6 +174,8 @@ File: `project_sql/5_optimal_skills.sql`
 
 ### Business Insight
 This is the most strategic query in the repository because it combines employability + economic return. It helps to prioritize learning skills that are both in demand and well paid, which is key for career planning.
+
+![Query 5 Result](assets/5_query.png)
 
 ---
 
