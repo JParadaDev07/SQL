@@ -201,4 +201,4 @@ This is the most strategic query in the repository because it combines employabi
 - Tutorial and analysis approach: **Luke Barousse**.
 - Dataset and base scripts: resources shared in his official content.
 
-If this repository helps you learn, you can use the same structure and adapt filters according to your target market. 
+This project is a personal learning exercise and is not affiliated with any company or organization. All data used is for educational purposes only.
